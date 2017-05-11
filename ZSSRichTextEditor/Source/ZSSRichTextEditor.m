@@ -1933,7 +1933,7 @@ static CGFloat kDefaultScale = 0.5;
     // Correct Curve
     UIViewAnimationOptions animationOptions = curve << 16;
     
-    const int extraHeight = 10;
+    const int extraHeight = 0;
     
     if ([notification.name isEqualToString:UIKeyboardWillShowNotification]) {
         
